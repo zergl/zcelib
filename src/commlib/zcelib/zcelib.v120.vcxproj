@@ -142,6 +142,7 @@
       <TreatWarningAsError>false</TreatWarningAsError>
       <PrecompiledHeaderFile>zce_predefine.h</PrecompiledHeaderFile>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <AdditionalIncludeDirectories>$(SolutionDir)commlib/zcelib;$(SolutionDir)commlib/soarlib;$(SolutionDir)../external/include/rapidxml;$(SolutionDir)../external/include/;$(SolutionDir)../external/include/google/protobuf;$(SolutionDir)../external/include/sqlite;$(SolutionDir)../external/include/mysql;$(SolutionDir)../external/include/lua</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -162,6 +163,7 @@
       <PrecompiledHeaderFile>zce_predefine.h</PrecompiledHeaderFile>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>$(SolutionDir)commlib/zcelib;$(SolutionDir)commlib/soarlib;$(SolutionDir)../external/include/rapidxml;$(SolutionDir)../external/include/;$(SolutionDir)../external/include/google/protobuf;$(SolutionDir)../external/include/sqlite;$(SolutionDir)../external/include/mysql;$(SolutionDir)../external/include/lua</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
